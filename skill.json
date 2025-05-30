@@ -1,0 +1,31 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Uma skill divertida com desafios aleatórios.",
+          "examplePhrases": [
+            "Alexa, abrir desafio rápido",
+            "Alexa, me dê um desafio",
+            "Alexa, começar desafio"
+          ],
+          "name": "Desafio Rápido",
+          "description": "Uma skill com desafios aleatórios e engraçados para brincar com amigos."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Use a invocação e peça desafios.",
+      "category": "GAMES",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda",
+          "uri": ""
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

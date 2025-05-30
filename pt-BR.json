@@ -1,0 +1,32 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "desafio rápido",
+      "intents": [
+        {
+          "name": "StartChallengeIntent",
+          "samples": [
+            "me dê um desafio",
+            "quero um desafio",
+            "manda um desafio",
+            "começar desafio",
+            "me desafie"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
